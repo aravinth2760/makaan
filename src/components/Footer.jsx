@@ -21,11 +21,11 @@ const AppFooter = () => {
 
   return (
     <footer
-      className="text-light py-5 px-3 px-lg-0"
       style={{ backgroundColor: "var(--accient)" }}
+      className="text-light pt-5 px-3"
     >
-      <section className="d-flex flex-wrap justify-content-evenly gap-4 p-2">
-        <div style={{ width: "308px" }} className="py-3 py-md-0">
+      <Row className="g-4 p-2">
+        <Col xl={3} md={6}>
           <h4 className="mb-2 mb-md-3 mb-lg-4">Get In Touch</h4>
           <p className="mb-1 fw-lighter fs-6">
             <FontAwesomeIcon icon="location-dot" className="me-2" />
@@ -50,9 +50,8 @@ const AppFooter = () => {
               );
             })}
           </div>
-        </div>
-
-        <div style={{ width: "308px" }} className="py-3 py-md-0">
+        </Col>
+        <Col xl={3} md={6}>
           <h4 className="mb-2 mb-md-3 mb-lg-4">Quick Links</h4>
           {links.map((link, i) => {
             return (
@@ -62,9 +61,8 @@ const AppFooter = () => {
               </p>
             );
           })}
-        </div>
-
-        <div className="py-3 py-md-0">
+        </Col>
+        <Col xl={3} md={6}>
           <h4 className="mb-2 mb-md-3 mb-lg-4">Photo Gallery</h4>
           <div className="d-flex flex-wrap gap-1" style={{ width: "308px" }}>
             {propertyList.map((src, i) => {
@@ -83,9 +81,8 @@ const AppFooter = () => {
               );
             })}
           </div>
-        </div>
-
-        <div style={{ width: "308px" }} className="py-3 py-md-0">
+        </Col>
+        <Col xl={3} md={6}>
           <h4 className="mb-2 mb-md-3 mb-lg-4">Newsletter</h4>
           <p className="fw-lighter fs-6">
             Dolor amet sit justo amet elitr clita <br /> ipsum elitr est.
@@ -103,7 +100,7 @@ const AppFooter = () => {
             />
             <Button
               size="md"
-              className="position-absolute"
+              className="position-absolute border-0"
               style={{
                 backgroundColor: "var(--primary)",
                 top: "6px",
@@ -113,10 +110,10 @@ const AppFooter = () => {
               SignUp
             </Button>
           </div>
-        </div>
-      </section>
+        </Col>
+      </Row>
       <hr className="my-4" />
-      <Row className="text-center">
+      <Row className="text-center pb-3">
         <Col>&copy; Your Site. All rights reserved. Designed with HTML.</Col>
       </Row>
     </footer>
