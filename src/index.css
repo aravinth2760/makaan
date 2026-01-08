@@ -1,1 +1,15 @@
+:root {
+  --primary: #01b98e;
+  --secondary: #effdf5;
+  --accient: #0f2e50;
+}
 
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: var(--secondary) !important;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--accient);
+}
