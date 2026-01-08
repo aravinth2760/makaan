@@ -1,0 +1,29 @@
+.property-type-card {
+  background-color: var(--secondary);
+  padding: 1rem;
+}
+
+.property-type-card > div {
+  background-color: #ffffff !important;
+  border: 1px dashed var(--primary);
+}
+
+.property-type-card img {
+  border: 1px dashed var(--primary);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.property-type-card > div:hover {
+  background-color: var(--primary) !important;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
+.property-type-card > div:hover span {
+  color: #ffffff !important;
+}
+
+.property-type-card > div:hover img {
+  background-color: #ffffff !important;
+}
