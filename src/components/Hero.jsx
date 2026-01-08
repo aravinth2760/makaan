@@ -9,7 +9,7 @@ const Hero = ({ renderContent }) => {
   return (
     <>
       <section className="d-lg-flex flex-lg-row-reverse gap-3 justify-content-between align-items-center">
-        <Carousel interval={2000}>
+        <Carousel interval={2000} className="mx-auto mx-lg-0">
           <Carousel.Item>
             <img src={crsl1} alt="Carousel1" className="img-fluid" />
           </Carousel.Item>
