@@ -10,6 +10,7 @@ import Testimonial from "./pages/Testimonial";
 import Error from "./pages/404";
 import Contact from "./pages/Contact";
 import AppNavbar from "./components/Navbar";
+import AppFooter from "./components/Footer";
 
 function AppRoutes() {
   const routes = [
@@ -31,6 +32,7 @@ const App = () => {
       <BrowserRouter>
         <AppNavbar />
         <AppRoutes />
+        <AppFooter />
       </BrowserRouter>
     </Container>
   );
