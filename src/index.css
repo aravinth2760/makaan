@@ -13,3 +13,11 @@ h1 {
   font-family: "Inter", sans-serif;
   color: var(--accient);
 }
+
+@media (max-width: 575px) {
+  .sm-only {
+    width: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

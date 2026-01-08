@@ -71,7 +71,7 @@ const Agent = () => {
             return (
               <>
                 <div
-                  className="col-lg-3 col-md-6 wow fadeInUp"
+                  className="col-lg-3 col-sm-6 wow fadeInUp sm-only"
                   data-wow-delay="0.1"
                 >
                   <div className="team-item rounded overflow-hidden shadow-sm">

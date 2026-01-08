@@ -71,7 +71,7 @@ const List = () => {
             <Col
               key={i}
               lg={4}
-              md={6}
+              sm={6}
               className="wow fadeInUp"
               data-wow-delay="0.1s"
             >
