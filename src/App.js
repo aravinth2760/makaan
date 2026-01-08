@@ -9,6 +9,7 @@ import Agent from './pages/property/Agent';
 import Testimonial from "./pages/Testimonial";
 import Error from "./pages/404";
 import Contact from "./pages/Contact";
+import AppNavbar from "./components/Navbar";
 
 function AppRoutes() {
   const routes = [
@@ -28,6 +29,7 @@ const App = () => {
   return (
     <Container fluid='lg' className='bg-white p-0'>
       <BrowserRouter>
+        <AppNavbar />
         <AppRoutes />
       </BrowserRouter>
     </Container>

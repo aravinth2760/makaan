@@ -1,0 +1,29 @@
+.icon {
+  padding: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff !important;
+  border-radius: 50px;
+  border: 1px dashed var(--primary) !important;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--primary) !important;
+}
+
+.dropdown-item.active {
+  background-color: var(--primary) !important;
+}
+
+@media (min-width: 992px) {
+  .nav-bar {
+    position: absolute;
+    transition: 0.5s;
+    z-index: 9999;
+    top: 20px;
+    width: 100%;
+  }
+}
