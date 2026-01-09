@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { useRoutes, BrowserRouter } from "react-router-dom";
+import { useRoutes, HashRouter } from "react-router-dom";
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -29,11 +29,11 @@ function AppRoutes() {
 const App = () => {
   return (
     <Container fluid='lg' className='bg-white p-0'>
-      <BrowserRouter>
+      <HashRouter>
         <AppNavbar />
         <AppRoutes />
         <AppFooter />
-      </BrowserRouter>
+      </HashRouter>
     </Container>
   );
 }
