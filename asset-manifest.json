@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.e714fcb7.css",
-    "main.js": "/static/js/main.9c16675c.js",
-    "static/js/453.f846a4f2.chunk.js": "/static/js/453.f846a4f2.chunk.js",
-    "static/media/about.jpg": "/static/media/about.34742c406645c386b134.jpg",
-    "static/media/carousel-1.jpg": "/static/media/carousel-1.1297b20051c65b561db7.jpg",
-    "static/media/carousel-2.jpg": "/static/media/carousel-2.335bdd28bfa9505b60a8.jpg",
-    "static/media/property-1.jpg": "/static/media/property-1.5105d687794f3efbb48d.jpg",
-    "static/media/property-5.jpg": "/static/media/property-5.15d91ccb1c2663ef6811.jpg",
-    "static/media/property-3.jpg": "/static/media/property-3.540b6791e880880f0901.jpg",
-    "static/media/call-to-action.jpg": "/static/media/call-to-action.4e006c4961dbce1f56cf.jpg",
-    "static/media/property-4.jpg": "/static/media/property-4.c2163cc4df78138b1328.jpg",
-    "static/media/property-2.jpg": "/static/media/property-2.f6ba0266cee5815b9196.jpg",
-    "static/media/property-6.jpg": "/static/media/property-6.3c4084344ebdbbd08f89.jpg",
-    "static/media/team-1.jpg": "/static/media/team-1.659ee7bb67b1bdfc7ccb.jpg",
-    "index.html": "/index.html",
-    "main.e714fcb7.css.map": "/static/css/main.e714fcb7.css.map",
-    "main.9c16675c.js.map": "/static/js/main.9c16675c.js.map",
-    "453.f846a4f2.chunk.js.map": "/static/js/453.f846a4f2.chunk.js.map"
+    "main.css": "/makaan/static/css/main.e714fcb7.css",
+    "main.js": "/makaan/static/js/main.f1390a43.js",
+    "static/js/453.f846a4f2.chunk.js": "/makaan/static/js/453.f846a4f2.chunk.js",
+    "static/media/about.jpg": "/makaan/static/media/about.34742c406645c386b134.jpg",
+    "static/media/carousel-1.jpg": "/makaan/static/media/carousel-1.1297b20051c65b561db7.jpg",
+    "static/media/carousel-2.jpg": "/makaan/static/media/carousel-2.335bdd28bfa9505b60a8.jpg",
+    "static/media/property-1.jpg": "/makaan/static/media/property-1.5105d687794f3efbb48d.jpg",
+    "static/media/property-5.jpg": "/makaan/static/media/property-5.15d91ccb1c2663ef6811.jpg",
+    "static/media/property-3.jpg": "/makaan/static/media/property-3.540b6791e880880f0901.jpg",
+    "static/media/call-to-action.jpg": "/makaan/static/media/call-to-action.4e006c4961dbce1f56cf.jpg",
+    "static/media/property-4.jpg": "/makaan/static/media/property-4.c2163cc4df78138b1328.jpg",
+    "static/media/property-2.jpg": "/makaan/static/media/property-2.f6ba0266cee5815b9196.jpg",
+    "static/media/property-6.jpg": "/makaan/static/media/property-6.3c4084344ebdbbd08f89.jpg",
+    "static/media/team-1.jpg": "/makaan/static/media/team-1.659ee7bb67b1bdfc7ccb.jpg",
+    "index.html": "/makaan/index.html",
+    "main.e714fcb7.css.map": "/makaan/static/css/main.e714fcb7.css.map",
+    "main.f1390a43.js.map": "/makaan/static/js/main.f1390a43.js.map",
+    "453.f846a4f2.chunk.js.map": "/makaan/static/js/453.f846a4f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e714fcb7.css",
-    "static/js/main.9c16675c.js"
+    "static/js/main.f1390a43.js"
   ]
 }
